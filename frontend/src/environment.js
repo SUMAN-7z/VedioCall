@@ -1,8 +1,6 @@
-let IS_PROD = false;
-const server = IS_PROD ?
-    "http://localhost:8000" :
-
-    "https://apnacollegebackend.onrender.com"
-
+let IS_PROD = true;
+const server = IS_PROD
+  ? "https://vediocall-ui49.onrender.com"
+  : "http://localhost:8000";
 
 export default server;
